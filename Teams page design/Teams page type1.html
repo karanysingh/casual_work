@@ -1,0 +1,209 @@
+<html lang="en">
+<head>
+
+<!--TEAMS CSS--> 
+    
+    <style type="text/css">
+    .people {
+        width:15%;
+        height: 200;
+        float: left;
+        margin: 20;
+        font-family:monospace;
+        position:static;
+    }   
+    
+    .faces{
+        margin:2%;
+        border-radius: 10%;
+        color:var(--theme-ui-colors-slate,#3c4858);
+        transition: .5s ease;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        
+    } 
+    .people:hover .faces{
+        background-color: yellow;
+        opacity: 0.4;
+        transform: rotateY(360deg);
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        } 
+        .people:hover .icons{
+            opacity: 1;
+            transition: .5s ease;
+            text-align: center;
+            box-shadow: 0 8px 16px 0 rgba(0.2,0.2,0.2,0.2);
+        }
+        .social_back{
+            text-align: center;
+            position: absolute;
+        }
+        .social_front{
+            position: absolute;
+            border-radius: 100;
+        }
+        .people:hover .social_front{
+            opacity: 0.4;
+        }    
+        .people:hover .social_back{
+            opacity: 1;
+        border-left:4px solid yellow;
+            border-radius:0; 
+        }
+        .people:hover .names{
+            opacity: 0.4;
+        }
+        .people:hover .people{
+            
+        }
+        
+        
+    .Teams{
+    font-size: 30px;
+    color:var(--theme-ui-colors-slate,#3c4858);
+    text-align:left;
+    margin-left:80;
+    height: 100%;
+    }
+    .Teams:hover #Teams_heading{
+        text-decoration: overline;
+        text-decoration-color: yellow;
+        transition: .3s ease; 
+    }
+    .names{
+        text-align: center;
+    }
+    #Teams_heading{
+            font-size: 50px;
+            margin-left:-30px;
+    }
+/*<!-- SOCIAL ICONS -->*/
+        .icons {
+  padding: 20px;
+  font-size: 30px;
+  width: 20px;
+  height: 20px;
+  text-align:center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 40%;
+            background-color: white;
+        opacity: 0;
+}
+        .social_back{
+            opacity: 0;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <div class="Teams">
+        <h2 id="Teams_heading"><b>Our Team</b></h2>
+        <div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\1.png"><br>
+                <p class ="names">Alex<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div>
+        <div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\2.png"><br>
+                <p class ="names">Alice<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\1.png"><br>
+                <p class ="names">Abdullahi<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\6.png"><br>
+                <p class ="names">Amit<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\5.png"><br>
+                <p class ="names">Rohit<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\2.png"><br>
+                <p class ="names">Adam<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\3.png"><br>
+                <p class ="names">Chris<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\4.png"><br>
+                <p class ="names">Fris<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\5.png"><br>
+                <p class ="names">Aura<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div><div class="people">
+            <div class="social_front">
+            <img class = "faces" src="rcs\6.png"><br>
+                <p class ="names">Alex<br></p>
+            </div>
+            <div class="social_back"><br>
+                <img class="icons" id="git" src="rcs\git.png">
+                <img class="icons" id="linkedin" src="rcs\in.png"><br><br>
+            </div>
+        
+        </div>
+    </div>
+
+</body>
+    
+</html>
